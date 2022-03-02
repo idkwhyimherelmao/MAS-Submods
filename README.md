@@ -1,3 +1,3 @@
-# Take Monika to Class
-  A submod that allows you to tell Monika you're bringing her to class!
-  Tell her exactly what class you're bringing her to, as well.
+# Malware's Submods
+  The official collection of Monika After Story submods created by maliciousSoftwaree on reddit!
+  Contact him here: https://www.reddit.com/user/malicioussoftwaree

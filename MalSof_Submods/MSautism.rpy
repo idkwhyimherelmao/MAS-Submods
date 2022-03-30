@@ -147,7 +147,7 @@ label monika_aspergers:
     m 3eud "It's also just called Asperger's."
     $_history_list.pop()
     menu:
-     "Yes, I have.":
+     "Yes, I do.":
       m 3wub "Oh, good! Would you like me to go into detail anyway?"
       $_history_list.pop()
       menu:
@@ -155,24 +155,24 @@ label monika_aspergers:
         m 1eua "Alright."
         m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
         m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning lables' that Asperger's was categorised into."
+        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
 
        "Yes, please. I don't know much about it.":
         m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
         m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning lables' that Asperger's was categorised into."
+        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
 
        "No, thank you.":
         m 2eka "Alright. Just let me know if you change your mind, okay?."
 
-     "No, I haven't":
+     "No, I don't":
       m 1eub "Would you like me to tell you about it?"
       $_history_list.pop()
       menu:
        "Yes, please.":
         m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
         m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning lables' that Asperger's was categorised into."
+        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
 
        "No, thank you.":
         m 2eka "Alright. Just let me know if you change your mind, okay?."

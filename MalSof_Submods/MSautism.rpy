@@ -81,60 +81,21 @@ init 5 python:
 
 label monika_autismspeaks:
     m 2esd "Hey [player], have you heard of Autism Speaks?"
-    $_history_list.pop()
-    menu:
-     "Yes, I have.":
-      m 3wub "Oh, good! Would you like me to go into detail anyway?"
-      $_history_list.pop()
-      menu:
-       "Yes, please. I'd like a recap.":
-        m 1eua "Alright."
-        m 2dsd "Autism Speaks sees autism as something horrible, labelling it a disease. They fund reasearch looking for some kind of 'cure'."
-        m 2dfd "Their logo is a puzzle piece, symbolizing that autistic people aren't whole people."
-        m 2efd "They've also been known to spend less funding on their research than other autism organizations."
-        m 2dfc "..."
-        m 2dkc "..."
-        m 2mkd "I just don't get how some people can be so cruel."
-        m 2eksdrb "I'm sorry, [player]. I didn't mean to bring down the mood."
-        m 3eub "You know, there are some things you can do to support to autistic community!"
-        m 3eua "You can donate to the Autistic Self Advocacy Network, run by and for autistic people!"
-        m 3eua "There's also RedInstead, a movement directly apposing Autism Speaks' LightItUpBlue."
-        m 1ekb "Thank you for listening to me talk about this even though you already know about it, [player]."
-
-       "Yes, please. I don't know much about them.":
-        m 1eud "Have you heard about functioning labels, [player]?"
-        m 3eud "It's a way people categorise the 'severity' of autism."
-        m 3eud "The autistic community have discarded these labels, as autism is a wide and diverse spectrum."
-        m 3ekc "Some people use functioning labels to further discriminate against autistic people."
-        m 3eua "Luckily, not many people use the labels anymore."
-        m 3hua "So remember, if someone tries to say someone's 'high-functioning' or 'low-functioning', try to correct them! If you can't, then just remember what you've learned."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
-
-     "No, I haven't":
-      m 1eub "Would you like me to tell you about it?"
-      $_history_list.pop()
-      menu:
-       "Yes, please.":
-        m 4efd "It's a truly terrible company."
-        m 2ekd "Using the autistic comunnity as a mean of personal gains. Completely going against what they say they stand for."
-        m 2efx "It's really despicable."
-        m 2rusdrd "Ah, I guess I got too caught up. I haven't even told you what they do yet."
-        m 2dsd "Autism Speaks is a company that sees autism as something horrible, labelling it a disease. They fund reasearch looking for some kind of 'cure'."
-        m 2dfd "Their logo is a puzzle piece, symbolizing that autistic people aren't whole."
-        m 2efd "They've also been known to spend less funding on their research than other autistm organizations."
-        m 2dfc "..."
-        m 2dkc "..."
-        m 2mkd "I just don't get how some people can be so cruel."
-        m 2eksdrb "I'm sorry, [player]. I didn't mean to bring down the mood."
-        m 3eub "You know, there are some things you can do to support to autistic community!"
-        m 3eua "You can donate to the Autistic Self Advocacy Network, run by and for autistic people!"
-        m 3eua "There's also RedInstead, a movement directly apposing Autism Speaks' LightItUpBlue."
-        m 1ekb "Thank you for listening to me talk about this, [player]. I hope you learned something from this."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
+    m 4efd "It's a truly terrible company."
+    m 2ekd "Using the autistic comunnity as a mean of personal gains. Completely going against what they say they stand for."
+    m 2efx "It's really despicable."
+    m 2rusdrd "Ah, I guess I got too caught up. I haven't even told you what they do yet."
+    m 2dsd "Autism Speaks is a company that sees autism as something horrible, labelling it a disease. They fund reasearch looking for some kind of 'cure'."
+    m 2dfd "Their logo is a puzzle piece, symbolizing that autistic people aren't whole."
+    m 2efd "They've also been known to spend less funding on their research than other autistm organizations."
+    m 2dfc "..."
+    m 2dkc "..."
+    m 2mkd "I just don't get how some people can be so cruel."
+    m 2eksdrb "I'm sorry, [player]. I didn't mean to bring down the mood."
+    m 3eub "You know, there are some things you can do to support to autistic community!"
+    m 3eua "You can donate to the Autistic Self Advocacy Network, run by and for autistic people!"
+    m 3eua "There's also RedInstead, a movement directly apposing Autism Speaks' LightItUpBlue."
+    m 1ekb "Thank you for listening to me talk about this, [player]. I hope you learned something from this."
 
 
 return
@@ -145,37 +106,9 @@ init 5 python:
 label monika_aspergers:
     m 3eua "Hey [player], do you know what Asperger syndrome is?"
     m 3eud "It's also just called Asperger's."
-    $_history_list.pop()
-    menu:
-     "Yes, I do.":
-      m 3wub "Oh, good! Would you like me to go into detail anyway?"
-      $_history_list.pop()
-      menu:
-       "Yes, please. I'd like a recap.":
-        m 1eua "Alright."
-        m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
-        m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
-
-       "Yes, please. I don't know much about it.":
-        m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
-        m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
-
-     "No, I don't":
-      m 1eub "Would you like me to tell you about it?"
-      $_history_list.pop()
-      menu:
-       "Yes, please.":
-        m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
-        m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
-        m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
+    m 3eud "It's a now outdated term for ASD- Autism Spectrum Disorder. It's outdated for many reasons."
+    m 3ekx "For one, it was named after a Nazi physician. You can probably tell why autistic people don't want do be associated with that."
+    m 3esd "Also, the autistic community has dismissed the 'functioning labels' that Asperger's was categorised into."
 
 return
 
@@ -184,44 +117,12 @@ init 5 python:
 
 label monika_functioninglabels:
     m 1eud "Have you heard about functioning labels, [player]?"
-    $_history_list.pop()
-    menu:
-     "Yes, I have.":
-      m 3wub "Oh, good! Would you like me to go into detail anyway?"
-      $_history_list.pop()
-      menu:
-       "Yes, please. I'd like a recap.":
-        m 1eua "Alright."
-        m 3eud "It's a way people categorise the 'severity' of autism."
-        m 3eud "The autistic community have discarded these labels, as autism is a wide and diverse spectrum."
-        m 3ekc "Some people use functioning labels to further discriminate against autistic people."
-        m 3eua "Luckily, not many people use the labels anymore."
-
-       "Yes, please. I don't know much about them.":
-        m 1eud "Have you heard about functioning labels, [player]?"
-        m 3eud "It's a way people categorise the 'severity' of autism."
-        m 3eud "The autistic community have discarded these labels, as autism is a wide and diverse spectrum."
-        m 3ekc "Some people use functioning labels to further discriminate against autistic people."
-        m 3eua "Luckily, not many people use the labels anymore."
-        m 3hua "So remember, if someone tries to say someone's 'high-functioning' or 'low-functioning', try to correct them! If you can't, then just dont let it change your view on autistic folks."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
-
-     "No, I haven't":
-      m 1eub "Would you like me to tell you about it?"
-      $_history_list.pop()
-      menu:
-       "Yes, please.":
-        m 1eud "Have you heard about functioning labels, [player]?"
-        m 3eud "It's a way people categorise the 'severity' of autism."
-        m 3eud "The autistic community have discarded these labels, as autism is a wide and diverse spectrum."
-        m 3ekc "Some people use functioning labels to further discriminate against autistic people."
-        m 3eua "Luckily, not many people use the labels anymore."
-        m 3hua "So remember, if someone tries to say someone's 'high-functioning' or 'low-functioning', try to correct them! If you can't, then just dont let it change your view on autistic folks."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
+    m 1eud "Have you heard about functioning labels, [player]?"
+    m 3eud "It's a way people categorise the 'severity' of autism."
+    m 3eud "The autistic community have discarded these labels, as autism is a wide and diverse spectrum."
+    m 3ekc "Some people use functioning labels to further discriminate against autistic people."
+    m 3eua "Luckily, not many people use the labels anymore."
+    m 3hua "So remember, if someone tries to say someone's 'high-functioning' or 'low-functioning', try to correct them! If you can't, then just dont let it change your view on autistic folks."
 
 return
 
@@ -230,45 +131,11 @@ init 5 python:
 
 label monika_personfirst:
     m 2eud "Do you know what 'person-first language' is, [player]?"
-    $_history_list.pop()
-    menu:
-     "Yes, I do.":
-      m 3wub "Oh, good! Would you like me to go into detail anyway?"
-      $_history_list.pop()
-      menu:
-       "Yes, please. I'd like a recap.":
-        m 1eua "Alright."
-        m 3eud "It's something people use because they feel like they have to remind others that autistic people are, in fact, people."
-        m 2eud "A lot of autistc people refer to themselves as just that- 'autistic people'."
-        m 4eud "But people who use person-first language would call them 'people with autism'."
-        m 2esd "Not only is that a bit longer, it's also just unecessary."
-        m 2esc "It insinuates that autism is seperate from the person, some autistic people have agreed it sounds like they're saying the autism can be removed."
-        m 1ekb "Thank you for listening to me talk about this even though you already know about it, [player]."
-
-       "Yes, please. I don't know much about them.":
-        m 3eud "It's something people use because they feel like they have to remind others that autistic people are, in fact, people."
-        m 2eud "A lot of autistc people refer to themselves as just that- 'autistic people'."
-        m 4eud "But people who use person-first language would call them 'people with autism'."
-        m 2esd "Not only is that a bit longer, it's also just unecessary."
-        m 2esc "It insinuates that autism is seperate from the person, some autistic people have agreed it sounds like they're saying the autism can be removed."
-        m 2eka "So please, just refer to them as 'autistic people'."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
-
-     "No, I don't":
-      m 1eub "Would you like me to tell you about it?"
-      $_history_list.pop()
-      menu:
-       "Yes, please.":
-        m 3eud "It's something people use because they feel like they have to remind others that autistic people are, in fact, people."
-        m 2eud "A lot of autistc people refer to themselves as just that- 'autistic people'."
-        m 4eud "But people who use person-first language would call them 'people with autism'."
-        m 2esd "Not only is that a bit longer, it's also just unecessary."
-        m 2esc "It insinuates that autism is seperate from the person, some autistic people have agreed it sounds like they're saying the autism can be removed."
-        m 2eka "So please, just refer to them as 'autistic people'."
-
-       "No, thank you.":
-        m 2eka "Alright. Just let me know if you change your mind, okay?."
+    m 3eud "It's something people use because they feel like they have to remind others that autistic people are, in fact, people."
+    m 2eud "A lot of autistc people refer to themselves as just that- 'autistic people'."
+    m 4eud "But people who use person-first language would call them 'people with autism'."
+    m 2esd "Not only is that a bit longer, it's also just unecessary."
+    m 2esc "It insinuates that autism is seperate from the person, some autistic people have agreed it sounds like they're saying the autism can be removed."
+    m 2eka "So please, just refer to them as 'autistic people'."
 
 return
